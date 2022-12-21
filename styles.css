@@ -1,0 +1,190 @@
+body {
+    background-color: #26282B;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    border: dotted white 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 50px;
+}
+
+td {
+    padding: 10px;
+}
+
+/* HOMEPAGE */
+
+#home-page {
+    margin: 0 15%;
+}
+
+.navbar-icon {
+    width: 50px;
+}
+
+.title {
+    padding: 17.5%;
+}
+
+h1 {
+    font-family: "Sacramento";
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.profile-image {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.col-lg-5 {
+    margin: auto 0;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    background-color: white;
+    color: black;
+    padding: 5%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.education-content {
+    padding: 2.5%;
+}
+
+.education-image {
+    width: 40%;
+}
+
+.hobbies-div {
+    padding-top: 5%;
+}
+
+.hobbies-image {
+    width: 25%;
+    margin: 0 5%;
+}
+
+/* SKILLS */
+
+.skills {
+    margin: 5%;
+}
+
+.skills-content {
+    margin: 5%;
+}
+
+.skills-image {
+    width: 50%;
+}
+
+.skills-logo {
+    width: 50px;
+}
+
+.skills-table {
+    margin: 0 auto;
+}
+
+/* INTERNSHIPS */
+
+.internships-content {
+    margin: 10% 0;
+}
+
+.internships-image {
+    width: 50%;
+}
+
+/* PROJECTS */
+
+.projects-content {
+    margin: 15% 0;
+}
+
+.projects-image {
+    width: 50%;
+}
+
+.tindog-icon, .drum-icon, .dice-image, .simon-image {
+    width: 50px;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: white;
+    color: black;
+    padding: 2.5% 0;
+}
+
+.contact-content {
+    margin: 7.5%;
+}
+
+.contact-image {
+    width: 50%;
+}
+
+.gmail-icon {
+    width: 50px;
+}
+
+.social-logo {
+    width: 50px;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin: 2.5% 0;
+}
+
+/* ART PAGE */
+
+.art-page-image {
+    border-radius: 10px;
+    width: 20%;
+    margin: 1%;
+    transform: scale(1);
+    transition: 0.3s ease-out;
+}
+
+.art-page-image:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.125);
+    z-index: 1;
+}
+
+/* MUSIC PAGE */
+
+.shorts,.videos {
+    border-radius: 2.5%;
+    border: solid 1px white;
+    margin: 2%;
+}
+
+@media (max-width: 1128px){
+    .art-page-image {
+        width: 100%;
+    }
+    .education-table, .internships-table, .projects-table, .contact-table {
+        margin: 0 auto;
+    }
+    .education-image, .hobbies-image, .skills-image, .internships-image, .projects-image, .contact-image {
+        width: 20%;
+    }
+}
